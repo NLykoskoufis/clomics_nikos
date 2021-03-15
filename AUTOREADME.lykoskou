@@ -1,0 +1,312 @@
+#[2020-12-19 08:13:12 AM]
+cd clomics
+#[2020-12-19 08:13:13 AM]
+lh
+#[2020-12-19 08:13:36 AM]
+less Makefile2
+#[2020-12-19 08:17:26 AM]
+vim Makefile2
+#[2020-12-19 08:17:34 AM]
+make clean 
+#[2020-12-19 08:17:47 AM]
+rm Makefile
+#[2020-12-19 08:17:55 AM]
+mv Makefile2 Makefile
+#[2020-12-19 08:19:13 AM]
+make baobab -j4
+#[2020-12-19 08:19:34 AM]
+lh
+#[2020-12-19 08:19:39 AM]
+make install
+#[2020-12-19 08:19:49 AM]
+cd ..
+#[2020-12-19 08:19:50 AM]
+lh
+#[2020-12-19 08:20:20 AM]
+less Makefile
+#[2020-12-19 08:20:36 AM]
+vim Makefile
+#[2020-12-19 08:20:49 AM]
+less Makefile
+#[2020-12-19 08:21:13 AM]
+cp /srv/nasac.unige.ch/funpopgen/data/unige/funpopgen/odelanea/SGX/V2/binaries/clomics/Makefile .
+#[2020-12-19 08:21:18 AM]
+less Makefile
+#[2020-12-19 08:23:58 AM]
+vim Makefile
+#[2020-12-19 08:24:00 AM]
+lh
+#[2020-12-19 08:24:07 AM]
+make clean
+#[2020-12-19 08:32:35 AM]
+make baobab -j4
+#[2020-12-19 08:36:20 AM]
+module load blas
+#[2020-12-19 08:36:27 AM]
+module --ignore-cache load "blas
+#[2020-12-19 08:36:53 AM]
+module spider blas
+#[2020-12-19 08:37:28 AM]
+cd Software/clomics
+#[2020-12-19 08:37:29 AM]
+lh
+#[2020-12-19 08:37:31 AM]
+rm Makefile
+#[2020-12-19 08:37:54 AM]
+cp /srv/beegfs/scratch/groups/funpopgen/Tools/clomics_nikos/Makefile .
+#[2020-12-19 08:37:55 AM]
+lh
+#[2020-12-19 08:38:09 AM]
+less Makefile
+#[2020-12-19 08:38:17 AM]
+make baobab -j4
+#[2020-12-19 08:38:24 AM]
+./bin/clomics
+#[2020-12-19 08:39:27 AM]
+less src/mode_quantify/quantify_read_groups.cpp
+#[2020-12-24 06:11:15 AM]
+cd clomics
+#[2020-12-24 06:11:16 AM]
+lh
+#[2020-12-24 06:11:26 AM]
+cd ../
+#[2020-12-24 06:11:27 AM]
+lh
+#[2021-02-08 04:00:04 PM]
+cd clomics
+#[2021-02-10 08:31:33 AM]
+cd clomics
+#[2021-02-10 08:31:34 AM]
+lh
+#[2021-02-10 08:48:56 AM]
+cd clomics
+#[2021-02-10 08:59:43 AM]
+cd ../../
+#[2021-02-10 08:59:44 AM]
+lh
+#[2021-02-25 12:53:38 PM]
+cd Software/clomics_nikos
+#[2021-02-25 12:53:39 PM]
+lh
+#[2021-02-25 12:54:49 PM]
+make baobab -j5
+#[2021-02-25 01:15:21 PM]
+~/Software/clomics_nikos/bin/clomics quantify --bed /srv/beegfs/scratch/users/l/lykoskou/TE/V3/data_expression/tumor/corrected/TUMOR.TE.cpm.resid.bed.gz /srv/beegfs/scratch/users/l/lykoskou/TE/V3/data_expression/tumor/corrected/TUMOR.GENE.cpm.resid.bed.gz --grp /srv/beegfs/scratch/users/l/lykoskou/TE/V3/data_qtls/emods/quantifications/tumor/to_be_quantified.txt --pca 1 --normal --out test
+#[2021-02-25 01:16:12 PM]
+make baobab -j5
+#[2021-02-25 01:17:08 PM]
+less src/mode_quantify/quantify_processes.cpp
+#[2021-02-25 01:18:20 PM]
+make baobab -j5
+#[2021-02-25 01:50:26 PM]
+cd ../../
+#[2021-02-25 01:50:27 PM]
+lh
+#[2021-02-25 01:51:23 PM]
+make baobab -j4
+#[2021-02-25 01:54:00 PM]
+make baobab -j4 | less -S
+#[2021-02-25 01:54:02 PM]
+make baobab -j4 | less -S
+#[2021-02-25 01:54:50 PM]
+make baobab -j4 
+#[2021-02-25 01:55:43 PM]
+make baobab -j4 
+#[2021-02-25 02:00:53 PM]
+make baobab -j4 >> test
+#[2021-02-25 02:01:01 PM]
+less test
+#[2021-02-25 02:01:03 PM]
+rm test
+#[2021-02-25 02:01:35 PM]
+vim Makefile
+#[2021-02-25 02:02:18 PM]
+make baobab -j4
+#[2021-02-25 02:03:43 PM]
+vim Makefile
+#[2021-02-25 02:04:19 PM]
+make baobab -j4
+#[2021-02-25 02:06:01 PM]
+vim Makefile
+#[2021-02-25 02:07:03 PM]
+make baobab -j4 -Wfatal-errors
+#[2021-02-25 02:16:50 PM]
+make baobab -j4
+#[2021-02-25 02:21:23 PM]
+lh
+#[2021-02-25 02:24:35 PM]
+cd Software/clomics_nikos
+#[2021-02-25 02:24:36 PM]
+lh
+#[2021-02-25 02:24:42 PM]
+cd ../
+#[2021-02-25 02:24:43 PM]
+lh
+#[2021-02-25 02:25:18 PM]
+cd ../../
+#[2021-02-25 02:25:19 PM]
+lh
+#[2021-02-25 02:25:29 PM]
+make clean
+#[2021-02-25 02:34:21 PM]
+make baobab -j5
+#[2021-02-25 02:36:03 PM]
+lh
+#[2021-02-25 02:36:17 PM]
+cd ../
+#[2021-02-25 02:36:22 PM]
+less Makefile
+#[2021-02-25 02:37:00 PM]
+vim Makefile
+#[2021-02-25 02:37:08 PM]
+make clean 
+#[2021-02-25 02:39:20 PM]
+cd clomics_nikos
+#[2021-02-25 02:39:21 PM]
+lh
+#[2021-02-25 02:45:19 PM]
+cd ../
+#[2021-02-25 02:45:19 PM]
+lh
+#[2021-02-25 02:45:22 PM]
+cd ../
+#[2021-02-25 02:45:23 PM]
+lh
+#[2021-02-25 02:45:32 PM]
+make baobab -j4
+#[2021-02-25 02:45:39 PM]
+cd ../
+#[2021-02-25 02:46:35 PM]
+make baobab -j4
+#[2021-02-25 02:47:45 PM]
+make baobab -j4
+#[2021-02-25 02:49:21 PM]
+vim Makefile
+#[2021-02-25 02:50:44 PM]
+make baobab -j 4
+#[2021-02-25 02:51:18 PM]
+lh
+#[2021-02-25 02:51:49 PM]
+less Makefile
+#[2021-02-25 02:52:53 PM]
+open .
+#[2021-02-25 02:54:22 PM]
+lh
+#[2021-02-25 02:55:38 PM]
+vim Makefile
+#[2021-02-25 02:57:47 PM]
+make baobab -j 4
+#[2021-02-25 02:58:40 PM]
+make baobab -j 4
+#[2021-02-25 03:06:23 PM]
+make baobab -j 4
+#[2021-02-25 03:07:10 PM]
+make baobab -j 4
+#[2021-02-25 03:07:11 PM]
+make baobab -j 4
+#[2021-02-25 03:11:42 PM]
+make baobab -j 4
+#[2021-02-25 03:15:09 PM]
+less src/mode_quantify/quantify_write_pca_variance.cpp
+#[2021-02-25 04:16:50 PM]
+cd Software/clomics_nikos
+#[2021-02-25 04:17:37 PM]
+make baobab -j 4
+#[2021-02-25 04:18:25 PM]
+make baobab -j 4
+#[2021-02-25 04:22:52 PM]
+less src/mode_quantify/quantify_processes.cpp
+#[2021-02-25 04:28:17 PM]
+make baobab -j 4
+#[2021-02-25 04:30:02 PM]
+make baobab -j 4
+#[2021-02-25 04:31:52 PM]
+make baobab -j 4
+#[2021-02-25 04:34:30 PM]
+make baobab -j 4
+#[2021-02-25 06:18:21 PM]
+cd Software/clomics_nikos
+#[2021-02-25 06:18:26 PM]
+la
+#[2021-02-25 06:18:42 PM]
+cd ../
+#[2021-02-25 06:18:45 PM]
+git status
+#[2021-02-25 06:19:00 PM]
+rm -rf .git
+#[2021-02-25 06:19:03 PM]
+git remote add origin https://github.com/NLykoskoufis/clomics_nikos.git
+#[2021-02-25 06:19:12 PM]
+git init
+#[2021-02-25 06:19:16 PM]
+ls
+#[2021-02-25 06:19:16 PM]
+la
+#[2021-02-25 06:19:18 PM]
+git remote add origin https://github.com/NLykoskoufis/clomics_nikos.git
+#[2021-02-25 06:19:24 PM]
+git branch -M main
+#[2021-02-25 06:19:30 PM]
+git status
+#[2021-02-25 06:19:46 PM]
+git add *
+#[2021-02-25 06:19:52 PM]
+git .ignore 
+#[2021-02-25 06:20:34 PM]
+git status
+#[2021-02-25 06:20:52 PM]
+git push origin
+#[2021-02-25 06:21:20 PM]
+git push --set-upstream origin master
+#[2021-02-25 06:21:22 PM]
+lh
+#[2021-02-25 06:21:26 PM]
+la
+#[2021-02-25 06:21:29 PM]
+rm .git
+#[2021-02-25 06:21:31 PM]
+l
+#[2021-02-25 06:21:35 PM]
+rm -rf .git 
+#[2021-02-25 06:21:36 PM]
+lh
+#[2021-02-28 11:29:39 AM]
+cd clomics_nikos
+#[2021-02-28 11:29:39 AM]
+lh
+#[2021-02-28 11:29:56 AM]
+less lib/OTools/pca.h
+#[2021-02-28 11:31:58 AM]
+make baobab -j4 
+#[2021-02-28 11:40:55 AM]
+make baobab -j 4
+#[2021-03-15 06:36:32 PM]
+cd clomics_nikos
+#[2021-03-15 06:36:33 PM]
+ls
+#[2021-03-15 06:36:34 PM]
+echo "# clomics_nikos" >> README.md
+#[2021-03-15 06:36:34 PM]
+git init
+#[2021-03-15 06:36:34 PM]
+git add README.md
+#[2021-03-15 06:36:35 PM]
+git commit -m "first commit"
+#[2021-03-15 06:36:35 PM]
+git branch -M main
+#[2021-03-15 06:36:36 PM]
+git remote add origin https://github.com/NLykoskoufis/clomics_nikos.git
+#[2021-03-15 06:36:53 PM]
+git push -u origin main
+#[2021-03-15 06:38:01 PM]
+cd ../Software/clomics_nikos
+#[2021-03-15 06:38:02 PM]
+lh
+#[2021-03-15 06:38:17 PM]
+git add *
+#[2021-03-15 06:38:37 PM]
+cd ../
+#[2021-03-15 06:38:52 PM]
+cd ../
+#[2021-03-15 06:38:53 PM]
+lh

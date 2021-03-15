@@ -1,0 +1,56 @@
+#[2021-02-08 04:00:12 PM]
+cd mode_quantify
+#[2021-02-08 04:07:10 PM]
+less quantify_read_groups.cpp
+#[2021-02-10 08:31:40 AM]
+cd mode_quantify
+#[2021-02-10 08:31:41 AM]
+lh
+#[2021-02-10 08:32:55 AM]
+vim quantify_write_bed.cpp
+#[2021-02-10 08:42:41 AM]
+cd clomics/src/mode_quantify
+#[2021-02-10 08:43:07 AM]
+less quantify_processes.cpp
+#[2021-02-10 08:44:18 AM]
+less quantify_read_phenotypes.cpp
+#[2021-02-10 08:44:20 AM]
+ls
+#[2021-02-10 08:44:28 AM]
+les -S quantify_write_bed.cpp
+#[2021-02-10 08:45:07 AM]
+less -S quantify_write_bed.cpp
+#[2021-02-10 08:45:17 AM]
+less -S quantify_read_tree.cpp
+#[2021-02-10 08:47:15 AM]
+less quantify_processes.cpp
+#[2021-02-10 08:49:01 AM]
+cd src/mode_quantify
+#[2021-02-10 08:59:31 AM]
+less quantify_read_groups.cpp
+#[2021-02-10 08:59:38 AM]
+cd clo
+#[2021-02-25 01:20:04 PM]
+cd mode_quantify
+#[2021-02-25 01:20:05 PM]
+lh
+#[2021-02-25 01:49:49 PM]
+less quantify_processes.cpp
+#[2021-02-25 01:49:52 PM]
+less quantify_processes.cpp
+#[2021-02-25 01:50:13 PM]
+less quantify_processes.cpp
+#[2021-02-25 01:50:24 PM]
+less quantify_data.h
+#[2021-02-25 02:21:33 PM]
+cd mode_quantify
+#[2021-02-25 02:21:34 PM]
+la
+#[2021-02-25 02:21:44 PM]
+less quantify_processes.cpp
+#[2021-02-25 02:24:51 PM]
+cd mode_quantify
+#[2021-02-25 02:25:00 PM]
+less quantify_main.cpp 
+#[2021-02-25 02:25:13 PM]
+less quantify_processes.cpp
